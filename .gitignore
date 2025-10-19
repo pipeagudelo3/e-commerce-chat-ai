@@ -8,9 +8,6 @@ __pycache__/
 .vscode/
 .idea/
 
-data/
-!data/.gitkeep
-
 .env
 .env.local
 .env.*.local
