@@ -1,0 +1,20 @@
+# Entornos locales
+venv/
+.env
+.vscode/
+.idea/
+
+# Git & cache
+.git/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+
+# Datos locales (ya se montan por volumen)
+data/*
+!data/.gitkeep
+
+# Otros
+*.log

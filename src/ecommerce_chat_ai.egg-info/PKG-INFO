@@ -1,0 +1,11 @@
+Metadata-Version: 2.4
+Name: ecommerce-chat-ai
+Version: 0.1.0
+Summary: FastAPI + Gemini (free) + Hexagonal + SQLite
+Requires-Python: >=3.10
+Requires-Dist: fastapi==0.115.5
+Requires-Dist: uvicorn[standard]==0.32.0
+Requires-Dist: sqlalchemy==2.0.36
+Requires-Dist: pydantic==2.9.2
+Requires-Dist: python-dotenv==1.0.1
+Requires-Dist: google-generativeai==0.8.3

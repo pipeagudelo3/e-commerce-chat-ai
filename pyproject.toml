@@ -1,0 +1,21 @@
+[project]
+name = "ecommerce-chat-ai"
+version = "0.1.0"
+description = "FastAPI + Gemini (free) + Hexagonal + SQLite"
+requires-python = ">=3.10"
+dependencies = [
+  "fastapi==0.115.5",
+  "uvicorn[standard]==0.32.0",
+  "sqlalchemy==2.0.36",
+  "pydantic==2.9.2",
+  "python-dotenv==1.0.1",
+  "google-generativeai==0.8.3"
+]
+
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
